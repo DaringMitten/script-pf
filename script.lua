@@ -1,3 +1,5 @@
+loadstring(game:HttpGet("https://raw.githubusercontent.com/DaringMitten/script-pf/main/lib.lua"))()
+
 -- // Load the UI library
 local lib = getgenv().library
 
@@ -69,3 +71,4 @@ UserInputService.InputBegan:Connect(function(input, processed)
 end)
 
 print("✅ UI Loaded successfully.")
+
