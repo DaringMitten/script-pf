@@ -142,7 +142,7 @@ function Library:CreateWindow(Config, Parent)
 	end
 
 	function WindowInit:SetBackground(ImageId)
-		Holder.Image = "rbxassetid://" .. ImageId
+		Holder.Image = ""
 	end
 
 	function WindowInit:SetBackgroundColor(Color)
@@ -783,5 +783,6 @@ function Library:CreateWindow(Config, Parent)
 	end
 	return WindowInit
 end
+
 
 getgenv().library = Library
