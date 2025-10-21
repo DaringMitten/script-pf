@@ -141,7 +141,7 @@ function Library:CreateWindow(Config, Parent)
 		ChangeColor(Color)
 	end
 
-	function WindowInit:SetBackground(ImageId)
+	function WindowInit:SetBackground()
 		Holder.Image = ""
 	end
 
@@ -786,3 +786,4 @@ end
 
 
 getgenv().library = Library
+
